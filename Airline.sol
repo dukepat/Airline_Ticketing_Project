@@ -33,7 +33,7 @@ contract Airline {
     Flight[] scheduledFlights;      
 
 
-    uint CancelPenalty2H_4H_Per = 80;
+    uint CancelPenalty2H_4H_Per = 70;
     uint CancelPenalty4H_8H_Per = 20;
     
     event AirlineEvent (
